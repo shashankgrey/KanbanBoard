@@ -1,0 +1,87 @@
+.kanban-container {
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .controls label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .kanban-board {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .kanban-group {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .group-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .kanban-group-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .kanban-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .priority-0 {
+    background-color: #f0f0f0;
+  }
+  
+  .priority-1 {
+    background-color: #e3f7e3;
+  }
+  
+  .priority-2 {
+    background-color: #fff5e3;
+  }
+  
+  .priority-3 {
+    background-color: #ffe0e0;
+  }
+  
+  .priority-4 {
+    background-color: #ffcaca;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .card-meta {
+    color: #555;
+  }
+  
+  .card-priority span {
+    font-weight: bold;
+  }
+  
+  .card-user span {
+    font-style: italic;
+  }
+  
